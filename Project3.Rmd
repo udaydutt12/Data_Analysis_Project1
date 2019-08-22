@@ -1,6 +1,6 @@
 ---
-title: "Project3"
-author: "Kyunghoon Cha, Inkyoung Choi, Uday Dutt, Yeeun Choi"
+title: "Project1"
+author: "Uday Dutt"
 date: "October 27, 2017"
 output:
   html_document:
