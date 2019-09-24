@@ -1,5 +1,4 @@
-#### __GGPlots of price vs each explanatory variable__
-```{r}
+# GGPlots of price vs each explanatory variable
 ggplot(mydata, aes(minimum_nights, y = price, color = neighbourhood)) + 
   geom_point(size = 2)
 ggplot(mydata, aes(minimum_nights, y = price, color = room_type)) + 
@@ -24,4 +23,3 @@ ggplot(mydata, aes(x=availability_365, y = price, color = neighbourhood)) +
   geom_point(size = 2)
 ggplot(mydata, aes(x=availability_365, y = price, color = room_type)) + 
   geom_point(size = 2)
-```
